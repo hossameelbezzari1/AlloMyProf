@@ -1,0 +1,274 @@
+.myImages {
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid #d9d9d9; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oneImage {
+    width: 25%;
+    background-color: white;
+    /* border: 1px solid #d9d9d9; */
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: start;
+    display: flex;
+    margin-bottom: 10px;
+    flex-flow: column;
+}
+
+.myImages img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: center;
+}
+.imgCus{
+    /* margin-right: 10px;
+    width: 40%; */
+}
+
+.BoxLink{
+    /* width: 100%; */
+    text-align: center;
+}
+.BoxLink a {
+    text-decoration: none;
+    color: red;
+}
+.myVodeo {
+    /* background-color: white; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* border: 1px solid #d9d9d9; */
+}
+
+.oneVideo {
+    width: 100%;
+    display: grid;
+}
+.videoCu{
+    width: 100%;
+}
+.oneVideo video {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.BoxComment , .BoxShowComment{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.BoxComment img{
+    width: 60px;
+    height: 60px;
+    border-radius: 99px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.BoxWriteCoom{
+    display: grid;
+    width: 100%;
+}
+
+.writeComment {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.BoxWriteCoom button {
+    display: block;
+    width: fit-content;
+    background-color: #ff7373;
+    color: white;
+    padding: 4px 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 99px;
+}
+
+.BoxSeeComm{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 11px;
+    border: 1px solid #d4d4d4;
+    color: #8d8d8d;
+    display: block;
+    margin: 0;
+}
+
+.BoxShowComment img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    margin-right: 20px;
+}
+
+ /* on personnalise le label comme on veut */
+.label-file {
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+.label-file:hover {
+    color: #25a5c4;
+}
+
+ /* et on masque le input */
+.input-file {
+    display: none;
+}
+
+.btnupload {
+    background-color: hsl(345deg 100% 63% / 86%);
+    border: none;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btnupload {
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: #252c5e;
+    color: white;
+    margin-top: 10px;
+}
+
+.imgCus i {
+    font-size: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    border-radius: 10px 10px 0px 0px;
+    background: rgb(149,233,236);
+    background: linear-gradient(124deg, rgba(149,233,236,1) 35%, rgba(223,190,248,1) 100%);
+}
+.imgCus label {
+    cursor: pointer;
+    width: 100%;
+}
+.oneImage button , .myVodeo button{
+    width: 100%;
+    background-color: #dfbef8;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(149,233,236);
+    background: linear-gradient(124deg, rgba(149,233,236,1) -1%, rgba(223,190,248,1) 100%);
+}
+
+@media only screen and (min-width: 1000px) {
+    .myImages img {
+        height: 200px;
+    }
+    .imgCus i {
+        height: 200px;
+    }
+}
+.Social-iconShare {
+    margin-right : 10px;
+    border-radius: 99px;
+    padding: 2px 10px;
+    
+    text-decoration: none;
+margin-bottom: 10px;}
+.Social-iconShare span , .Social-iconShare i {
+    color: white;
+}
+.Allsocial {
+    display : flex;
+    flex-flow : row;
+    flex-wrap: wrap;margin : 10px 0px;
+    
+}
+.facebook {
+    background-color : #4267b2;
+}
+.twitter {
+    background-color: #1da1f2;
+}
+.whatsapp {
+    background-color: #2ea625;
+}
+.fanshat {
+    background: linear-gradient( 135deg, #63c0ff 0%, #8359ff 80%);
+}
+.linkedin {
+    background-color: #0073b1;
+}
+#uploadvideo{
+    margin-bottom: 10px;
+}
+.InputMe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+    object-fit: cover;
+    object-position: center;
+    
+}
+.uploadimg {
+    width: 130px;
+    height: 130px;
+    border-radius: 99px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.centerHeader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.headerFF{
+    display: flex;
+    flex-flow: row;
+}
+.headerFF i {
+    margin-right: 10px;
+}
+.inMobile {
+    display: flex !important;
+    flex-flow: row !important;
+    max-width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.inDesktop {
+    position: sticky;
+    top: 90px;
+    left: 0;
+}
+.lefted {
+    text-align: left;
+}
+
+.etatP {
+
+
+    font-size: 19px;
+    color: #6c6c6c;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;margin-right: 10px;padding: 5px 7px;}
+.mobileOT {
+    
+display: flex;flex-flow: row;align-items: center;}

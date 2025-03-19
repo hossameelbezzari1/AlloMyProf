@@ -1,0 +1,160 @@
+.nav_two{
+    width: 100%;
+    padding: 8px 5%;
+    border-top: 3px solid #ff5d85;
+    background-color: #ffffff85;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 99;
+    box-shadow: 5px 5px 20px -14px #000;
+    backdrop-filter: blur(20px);
+    background-color: black;
+    }
+
+.nav_two .logo img {
+    height: 47px;
+    padding: 3px 6px;
+}
+.menuC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 0 !important;
+}
+.menuC li a {
+    margin-right: 20px;
+}
+
+.imageLogo {
+    filter: drop-shadow(0px 0px 1px #ff5d85b8);
+}
+
+.menuC li, .LoginProfi li {
+    list-style-type: none;
+    margin-left: 6px;
+}
+
+.nav_two a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.LoginProfi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.LoginProfi a {
+    color: #313c81;
+}
+.btnlogin{
+    color: #ffffff !important;
+    background-color: #ff5d85;
+    padding: 6px 7px;
+    border-radius: 4px;
+    margin-right: 10px !important;
+    border: 2px solid white;
+    font-size: 15px !important;
+}
+
+.btnsingup{
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    margin-right: 0 !important;
+    font-size: 15px !important;
+}
+
+.nav_Picer {
+    position: fixed;
+    bottom: 35px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 98;
+}
+
+.menuPicer{
+    width: 90%;
+    background-color: #efefef66;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 16px;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    border-radius: 25px;
+}
+
+.menuPicer a {
+    text-decoration: none;
+    color: #313c81;
+    font-weight: 400;
+    font-size: 14px;
+}
+.menuPicer li img{
+    width: 33px !important;
+    height: 33px !important;
+}
+
+.Profile img {
+    width: 40px;
+    height: 40px;
+    background-color: #b9399d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 99px;
+    font-size: 28px;
+    color: white;
+    margin-right: 7px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ProfileLetter{
+    width: 40px;
+    height: 40px;
+    background-color: #b9399d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 99px;
+    font-size: 28px;
+    color: white;
+}
+
+.LinProfile {
+    text-decoration: none;
+    display: block;
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+}
+.Profile p {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.btnlogout{
+    /* display: flex; */
+    align-items: center;
+}

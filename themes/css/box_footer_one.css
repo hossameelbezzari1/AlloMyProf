@@ -1,0 +1,13 @@
+.footerOne{
+    background-color: hsl(345deg 100% 63% / 86%);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerOne p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}

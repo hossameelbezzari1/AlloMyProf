@@ -1,0 +1,283 @@
+
+
+.header {
+    background: linear-gradient(180deg, #1c1f40 35%, #e49a188f 100%);
+    justify-content: center;
+    background-size: 100% 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.header2{
+    padding: 30px;
+}
+.header_text{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+.header_text_p{
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.People{
+    background-color: aqua;
+    
+}
+.People img{
+    width: 200px;
+}
+.BoxPeople{
+    display: flex;
+    justify-content: space-between;
+}
+
+.BoxPeople {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.BoxPeople img {
+    padding: 3%;
+    width: 40%;
+}
+
+.BoxRecherche{
+    display: grid;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid #e9e9e9;;
+}
+.Elelink{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    text-decoration: none;
+}
+.inputBoxReche{
+    width: 100%;
+    /* margin-right: 5px; */
+    /* margin-bottom: 10px; */
+    border: 1px solid rgba(119, 119, 119, 0.233);
+    background: none;
+    /* padding: 6px 9px; */
+    outline: none;
+    border-radius: 5px;
+}
+.BoxRecherche button {
+    padding: 5px;
+    border: none;
+    background-color: hsl(345deg 100% 57%);
+    border-radius: 5px;
+    color: white;
+}
+
+.BoxRecherche button i {
+    color: white;
+}
+.head1{
+    margin: auto;
+}
+
+.imgTeacher{
+    width: 80%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+.boxTeacher{
+    display: flex;
+    justify-content: center;
+}
+.BoxRecherche button {
+    width: -webkit-fill-available;
+}
+
+
+.DesignedBox{
+    position: relative;
+    margin-top: 25px;
+}
+
+.MiniBoxTecher{
+    position: absolute;
+    bottom: 17%;
+}
+ .imgMiniTeacher {
+    width: 29%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+.imgMiniTikTeacher {
+    width: 32px;
+}
+.MiniBoxTik{
+    position: absolute;
+    top: 17%;
+    right: 24px;
+    width: fit-content;
+} */
+.imgMiniTikTeacher {
+    width: 32px;
+}
+
+.titleHeader2 {
+    color: #313c81;
+    font-size: 22px;
+}
+
+.paraHeader2{
+    color: #1315229e;
+}
+
+.linkHeader2{
+    text-decoration: none;
+    color: rgb(141, 128, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.header3{
+    padding: 20px;
+}
+
+.image-gallery {
+    width: 100%;
+    max-width: 950px;
+   
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 11px;
+}
+
+.image-gallery .image-box:nth-child(11n + 1) {
+    grid-column: unset;
+    grid-row: unset;
+}
+
+.image-gallery .image-box {
+    position: relative;
+    background-color: #d7d7d8;
+    overflow: hidden;
+}
+
+.LoopTypeProperty{
+    max-width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+.LoopTypeProperty::-webkit-scrollbar{
+    width: 0;
+}
+.ImageTypeProperty{
+    height: 130px;
+    width: 130px;
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 99px;
+    padding: 4px;
+    border: 3px dashed #ff5d85;
+    object-fit: cover;
+    object-position: center;
+}
+#BoxTypeProperty{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.BoxTitleTypeProperty {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 4px;
+    color: #585858;
+}
+.ContentTypeProperty{
+    position: relative;
+}
+
+.controlBtnLeftRight{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    position: absolute;
+    top: 0;
+}
+
+.btnLeft, .btnRight{
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 40px #000;
+    cursor: pointer;
+}
+.btnLeft{
+    position: absolute;
+    left: 0;
+    top: 58px;
+}
+
+.btnRight{
+    position: absolute;
+    right: 0;
+    top: 58px;
+}
+.TypeDiVProperty{
+    margin: 0px 10px;
+    width: 130px;
+}
+.TypePropertyTY{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.detaillTypeProperty{
+    font-size: 13px;
+    margin: 0;
+    color: #8d8d8d;
+}
+.iugi {
+    text-align: center;
+}
+.bhg{
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #252c5e;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #252c5e;
+    cursor: pointer;
+}
+.jhb{
+    text-align: center;
+}
+.AllStart {
+    display: flex;
+    flex-flow: row;
+}
+.disclaimer{
+    display: none !important;
+}
+
+.MiniInfor{
+    
+display: flex;flex-flow: row;margin-bottom: 8px;}
+
+.infoTwo {
+    display: flex;
+    flex-flow: column;
+}

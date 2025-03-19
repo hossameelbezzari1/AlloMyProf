@@ -1,0 +1,51 @@
+.BoxProfile {
+    width: 100%;
+    display: grid;
+}
+
+.LineProfile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    margin-bottom: 15px
+}
+
+.NameFunction {
+    width: 45%;
+    margin-right: 5px;
+}
+
+.NameFunction p {
+    margin: 0;
+}
+.InputMe{
+    width: 50%;
+}
+input[type="checkbox"] {
+    width: 0 !important;
+}
+.InputMe input , .InputMe textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 19px;
+    color: #6c6c6c;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+}
+
+.InputMe p{
+    font-size: 14px;
+    color: #616161c4;
+}
+.BoxProfile button , .save{
+    background-color: #398ab9;
+    color: white;
+    width: 100%;
+    display: block;
+    border: #398ab9;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,63 @@
+.topTHeader4 {
+    width: 100%;
+    display: grid;
+}
+
+.topTHeader4 .covertHeader4 {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.boxTopheader4 {
+    margin: 15px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.INfoHeader4 {
+    display: flex;
+    align-items: center;
+}
+
+.ImgAccHeader{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 99px;
+    margin-right: 15px;
+}
+
+.INfoHeader4 h4{
+    margin: 0;
+}
+.INfoHeader4 p {
+    margin: 0;
+    color: #888888;
+}
+.BtnInfoHeader4{
+    /* width: fit-content; */
+}
+
+.BtnInfoHeader4 a {
+    text-decoration: none;
+    background-color: hsl(345deg 100% 63% / 86%);
+    color: white;
+    padding: 11px 19px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    /* color: white; */
+}
+
+.header4 {
+    background-color: #fff1431a;
+    padding: 5% 0px;
+}
+
+.BtnInfoHeader4 a :hover {
+    background-color: black;
+}

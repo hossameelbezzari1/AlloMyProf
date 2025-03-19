@@ -1,0 +1,130 @@
+.formLogin{
+    width: 100%;
+    margin: 20% 0px;
+}
+.formLogin h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.LineLog{
+    margin-bottom: 10px;
+}
+.LineLog p{
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #787878;
+    font-weight: 400;
+}
+
+.LineLog input , .LineLog select{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.LineLog input[type="radio"]{
+    width: max-content;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+    background-color: #fff ;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.DivRadio{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.btnLogin{
+    background-color: hsl(345deg 100% 63% / 86%);
+    border: none;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.orUser{
+    width: 100%;
+    font-size: 15px;
+    color: #398ab9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.lll{
+    width: 10%;
+    background-color: #e3e3e3;
+    height: 1px;
+}
+.orUser span {
+    width: auto;
+    text-align: center;
+    padding: 0px 10px;
+}
+.SocialLog {
+    border-radius: 5px;
+    padding: 11px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.socialMediaLogin{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logFacebook{
+    background-color: #395693;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logFacebook:hover , .logGoogle:hover{
+    color: white;
+}
+.logFacebook i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.logGoogle{
+    background-color: #4081ec;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logGoogle i {
+    
+    font-size: 25px;
+    margin-right: 10px;
+}
+.span_error{
+    font-size: 14px;
+    color: red;
+}
+.uind {
+    
+margin-bottom: 10px;}
+
+.resetPass{
+    font-size: 18px;
+    margin-top: 12px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #ff5d85;
+}
+
+.resetPass span {
+    color: #252c5e8f;
+}
+.reset {
+    background-color: #252c5e8f;
+    margin-top: 10px;
+}

@@ -1,0 +1,118 @@
+.daitatPubl ul {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    /* display: block; */
+}
+
+.daitatPubl ul li {
+    padding: 3px 8px;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    width: fit-content;
+    color: #787878;
+    margin-right: 2px;
+    border: 1px solid #a8a8a8;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.daitatPubl{
+    width: 100%;
+    text-align: center;
+}
+.daitatPubl h2{
+    margin: 0;
+}
+
+.daitatPubl p {
+    margin-bottom: 5px;
+    color: #9e9e9e;
+}
+.imagePublic {
+    width: 132px;
+    height: 132px;
+    border-radius: 99px;
+    padding: 5px;
+    border: 3px dashed #ffa513;
+    object-fit: cover;
+    object-position: center;
+}
+.titrePubl{
+    font-size: 19px;
+    margin: 0;
+    color: #3f4eb9;
+}
+.resImag {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.prixPubli{
+    color: green !important;
+    font-size: 25px;
+    font-weight: 400;
+}
+.TeacherOne1{
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    padding: 25px;
+    margin-right: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.TeacherOne1 a {
+    text-decoration: none !important;
+}
+
+.TeacherOne{
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    padding: 25px;
+    margin-right: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.InputRecherche {
+    padding: 5px 10px;
+    width: 100%;
+    border: 1px solid #e0dada;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.InputRecherche select , .InputRecherche input{
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-left: 5px;
+}
+
+.LineRecherche {
+    margin-bottom: 10px;
+}
+.result0 {
+    width: 100%;
+    display: grid;
+}
+
+.result0 img {
+    width: 25%;
+    margin: auto;
+}
+
+.result0 p {
+    color: #ffa513;
+    text-align: center;
+}
+.reshersed {
+    
+width: 100%;background-color: #ffffff;color: #3f4eb9;padding: 5px 11px;border-radius: 5px;font-weight: 300;font-size: 19px;border: 1px solid #e9e9e9;}

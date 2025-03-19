@@ -1,0 +1,30 @@
+.MenuSettings {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 3px 12px -10px #000;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbbbbb1e;
+    display: flex;
+}
+
+
+.MenuSettings .elementOfMenu {
+    color: #398ab9;
+    margin-right: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    height: 30px;
+}
+.MenuSettings .elementOfMenu i {
+    margin-right: 6px;
+}
+
+.MenuSettings .elementOfMenu p{
+    margin: 0;
+    font-size: 19px;
+}

@@ -1,0 +1,54 @@
+.LoopCommandVille{
+    max-width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+.LoopCommandVille::-webkit-scrollbar{
+    width: 0;
+}
+.ImageCommandVille{
+    min-width: 130px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnRightCommandVille , .btnLeftCommandVille{
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0px 0px 40px #000;
+    cursor: pointer;
+}
+
+.btnRightCommandVille{
+    position: absolute;
+    right: 0;
+    top: 58px;
+}
+
+.btnLeftCommandVille{
+    position: absolute;
+    left: 0;
+    top: 58px;
+}
+.BoxTitleCommandVille {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 4px;
+    color: #585858;
+}
+.CommandVilleDiV {
+    margin: 0px 10px;
+}
+.CommandVilleTY{
+    font-size: 16px;
+    margin: 0;
+}
+.detaillCommandVille {
+    font-size: 13px;
+    margin: 0;
+    color: #8d8d8d;
+}

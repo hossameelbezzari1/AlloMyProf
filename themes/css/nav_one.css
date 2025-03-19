@@ -1,0 +1,28 @@
+.nav_one {
+    /* background-color: #252c5e; */
+    background-color: hsl(345deg 100% 63% / 86%);
+    /* padding: 6px 10px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5%;
+}
+
+.nav_one ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav_one li{
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 0;
+
+}
+
+.nav_one a {
+    text-decoration: none;
+    color: white;
+}

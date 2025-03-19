@@ -1,0 +1,165 @@
+#profilTe{
+    border-radius: 99px;
+    border: 2px dashed #ffa51345;
+    padding: 2px;
+    width: 130px;
+    height: 130px;
+    max-height: 130px;
+    max-width: 130px;
+    margin-right: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.boxProfile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.InfoProfile h2{
+    margin: 0;
+}
+.infoTwo img {
+    height: 20px;
+    margin-right: 10px;
+}
+.infoTwo{
+    display: flex;
+}
+.villeProf{
+    margin-right: 10px;
+}
+.start i {
+    color: rgb(255, 196, 0);
+}
+
+.contac{
+    text-decoration: none;
+    background-color: #ff7373;
+    color: white;
+    padding: 7px 19px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+}
+.contac:hover{
+    color: white;
+}
+
+.Matiere{
+    list-style-type: none;
+    padding: 0;
+}
+.Matiere li {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    padding: 5px 15px;
+    color: #273b7d;
+    display: -webkit-inline-box;
+    width: fit-content;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    text-align: center;
+}
+.TeacherOne {
+    /* margin: auto; */
+    margin-right: 25px;
+    width: 100px;
+}
+.TeacherOne a {
+    text-decoration: none;
+    display: grid;
+    margin: auto;
+    text-align: center;
+}
+.ProfileTe{
+    border-radius: 99px;
+    border: 2px dashed #ffa51345;
+    padding: 3px;
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+.NameTeSe{
+    color: #273b7d;
+    text-align: center;
+    font-weight: 400;
+
+}
+.ote{
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+    font-weight: 300;
+}
+
+.BoxComment , .BoxShowComment{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.BoxComment img{
+    width: 60px;
+    height: 60px;
+    border-radius: 99px;
+    margin-right: 20px;
+}
+.BoxWriteCoom{
+    display: grid;
+    width: 100%;
+}
+
+.writeComment {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.BoxWriteCoom button {
+    display: block;
+    width: fit-content;
+    background-color: #ff7373;
+    color: white;
+    padding: 4px 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 99px;
+}
+
+.BoxSeeComm{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 11px;
+    border: 1px solid #d4d4d4;
+    color: #8d8d8d;
+    display: block;
+    margin: 0;
+}
+
+.BoxShowComment img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.pric {
+    color: green;
+}
+
+.pric span {
+    font-size: 12px;
+}
